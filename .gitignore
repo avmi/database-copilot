@@ -1,0 +1,14 @@
+node_modules/
+*.log
+.DS_Store
+.env
+.env.*
+coverage/
+dist/
+build/
+*.tsbuildinfo
+
+# Local user data should never be committed
+.llm-budget/
+usage.sqlite
+usage.sqlite-*
