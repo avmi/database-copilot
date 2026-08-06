@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { createServer, startStdioTransport, startSSETransport } from './server.js';
 
 async function main() {

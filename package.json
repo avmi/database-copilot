@@ -4,6 +4,16 @@
   "description": "MCP Server - Database Schema & Query Copilot for VS Code (Multi-DB)",
   "main": "src/index.js",
   "type": "module",
+  "bin": {
+    "mcp-database-copilot": "src/index.js"
+  },
+  "files": [
+    "src",
+    ".env.example"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node src/index.js",
     "start:stdio": "node src/index.js --transport stdio",

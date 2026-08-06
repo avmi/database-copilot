@@ -1,0 +1,20 @@
+{
+  // Rename this file to mcp.json and place it in your project's .vscode/ folder.
+  // Replace the env values with your real database connection details.
+  "servers": {
+    "database-copilot": {
+      "type": "stdio",
+      "command": "mcp-database-copilot",
+      "args": ["--transport", "stdio"],
+      "env": {
+        "DB_1_TYPE": "postgresql",
+        "DB_1_HOST": "localhost",
+        "DB_1_PORT": "5432",
+        "DB_1_DATABASE": "mydb",
+        "DB_1_USER": "readonly_user",
+        "DB_1_PASSWORD": "change_me",
+        "DB_1_SSL": "false"
+      }
+    }
+  }
+}
